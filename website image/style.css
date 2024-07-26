@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.main{
+    width:90% ;
+    min-height: 100vh;
+    background-image: url(background\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 5%;
+    overflow: hidden;
+    position: relative;
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.lo{
+    text-decoration: none;
+    color: #333;
+    margin: 15px;
+    font-weight: 400;
+}
+.do{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 20px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.con{
+    margin-top: 10%;
+    max-width: 500px;
+
+}
+.con h1{
+    font-size:70px ;
+    color: #222;
+}
+
+.con p{
+    margin: 10px 0 30px ;
+    color: #222;
+}
+
+.con .do{
+    padding: 15px 50px;
+    font-size: 20px;
+    
+}
+
+.fewimg{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    
+}
